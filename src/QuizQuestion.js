@@ -7,11 +7,11 @@ render(){
   return (
     <main>
        <section>
-         <p>// instruction text goes here</p>
+         <p> { instruction_text from this.props} </p>
        </section>
        <section className="buttons">
          <ul>
-           //quiz question button logic goes here
+           <li value={this.props.quiz_question.answer_options[0]} /li>
          </ul>
        </section>
      </main>

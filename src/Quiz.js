@@ -9,7 +9,7 @@ class Quiz extends Component {
   }
   render(){
     return (
-    <div><QuizQuestion {quiz_question = quizData.Quiz_questions = [-1]} /></div>
+    <div><QuizQuestion {quiz_question = quizData.Quiz_questions [] quiz_position - 1} /></div>
     )
  }
 }
