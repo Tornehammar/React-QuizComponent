@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 
 class QuizQuestion extends Component{
 
-}
+
 render(){
   return (
     <main>
@@ -16,5 +16,6 @@ render(){
        </section>
      </main>
   )
-}  
+}
+}
 export default QuizQuestion
