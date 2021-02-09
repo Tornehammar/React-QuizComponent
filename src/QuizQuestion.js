@@ -16,4 +16,5 @@ render(){
        </section>
      </main>
   )
+}  
 export default QuizQuestion
